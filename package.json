@@ -1,0 +1,19 @@
+{
+  "name": "synonyms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "husky": "^4.0.1"
+  },
+  "scripts": {
+    "start": "micro -l tcp://0.0.0.0:${PORT-3000}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
